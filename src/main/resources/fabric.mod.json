@@ -3,13 +3,13 @@
   "id": "rayon-example-mod-fabric",
   "version": "${version}",
 
-  "name": "Rayon Example Mod Fabric:",
+  "name": "Rayon Example Mod Fabric",
   "description": "A fabric example mod for Rayon.",
   "authors": [ "The Lazurite Team" ],
   "contact": {
     "homepage": "https://lazurite.dev",
-    "sources": "https://github.com/LazuriteMC/rayon-example-mod",
-    "issues": "https://github.com/LazuriteMC/rayon-example-mod/issues"
+    "sources": "https://github.com/LazuriteMC/rayon-example-mod-fabric",
+    "issues": "https://github.com/LazuriteMC/rayon-example-mod-fabric/issues"
   },
 
   "license": "MIT",
@@ -26,7 +26,7 @@
   },
 
   "depends": {
-    "minecraft": ">=1.19",
+    "minecraft": ">=1.19.3",
     "fabricloader": ">=0.14",
     "fabric": "*"
   }

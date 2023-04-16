@@ -14,7 +14,6 @@ import java.util.List;
 
 /**
  * A stone block entity that uses an internally stored {@link EntityRigidBody} to behave using realistic physics.
- * Default Mass: 20kg
  */
 public class StoneBlockEntity extends LivingEntity implements EntityPhysicsElement {
 
@@ -23,7 +22,7 @@ public class StoneBlockEntity extends LivingEntity implements EntityPhysicsEleme
     public StoneBlockEntity(EntityType<? extends LivingEntity> entityType, World world) {
         super(entityType, world);
         this.rigidBody = new EntityRigidBody(this);
-        this.rigidBody.setMass(20.0f);
+        this.rigidBody.setMass(20.0f); // 20 kg
     }
 
     @Override
